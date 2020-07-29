@@ -75,8 +75,8 @@ input[type="text"] {
 }
 
 .meal {
-    cursor: pointer;
     position: relative;
+    cursor: pointer;
     width: 180px;
     height: 180px;
     text-align: center;
