@@ -46,7 +46,9 @@ function searchMeal(e) {
         // Clear Search text
         search.value = '';
     } else {
-        alert('Please enter a search term');
+        swal({
+            text: "Please enter a search term!",
+        });
     }
 }
 
